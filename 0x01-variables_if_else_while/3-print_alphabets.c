@@ -1,8 +1,3 @@
-/*
- * alphabets 
- * upper and lower
- */
-
 #include <stdio.h>
 
 /**
