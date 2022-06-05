@@ -11,14 +11,14 @@ int main(void)
 	char letters;
 
 	n = 0;
-	letter = 'a';
+	letters = 'a';
 
 	while (n < 10)
 		putchar((n % 10) + '0');
 	n++;
 	
 	while (letter <= 'f')
-		putchar(letter);
+		putchar(letters);
 	letters++;
 
 	putchar('\n');
