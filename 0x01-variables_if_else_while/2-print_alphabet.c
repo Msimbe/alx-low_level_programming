@@ -19,9 +19,7 @@ int main(void)
 	{
 		putchar(alphabet);
 	alphabet++;
-      
-	putchar('\n');
-
+	putchar('');
 	}
 
 	return (0);
