@@ -17,7 +17,7 @@ int main(void)
 		putchar((n % 10) + '0');
 	n++;
 	
-	while (letter <= 'f')
+	while (letters <= 'f')
 		putchar(letters);
 	letters++;
 
