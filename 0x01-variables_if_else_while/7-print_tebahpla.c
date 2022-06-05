@@ -7,10 +7,10 @@
  */
 int main(void)
 {
-	char rev_alp
+	char rev
 
-		for (rev_alp = 'z'; rev_alp >= 'a'; rev-alp--)
-			putchar(rev_alp);
+		for (rev = 'z'; rev >= 'a'; rev--)
+			putchar(rev);
 
 	putchar('\n');
 
