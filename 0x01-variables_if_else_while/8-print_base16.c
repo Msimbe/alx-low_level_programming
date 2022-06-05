@@ -14,12 +14,16 @@ int main(void)
 	letters = 'a';
 
 	while (n < 10)
+	{
 		putchar((n % 10) + '0');
-	n++;
+		n++
+	}
 	
 	while (letters <= 'f')
+	{
 		putchar(letters);
-	letters++;
+		letters++
+	}
 
 	putchar('\n');
 
