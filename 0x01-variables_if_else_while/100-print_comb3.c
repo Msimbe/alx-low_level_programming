@@ -20,7 +20,7 @@ int main(void)
 			num1++;
 			num2++;
 
-			if (digit1 == 9 && digit2 == 9)
+			if (num1 == 9 && num2 == 9)
 				continue;
 
 			putchar(',',);
