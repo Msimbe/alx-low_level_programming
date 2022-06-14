@@ -3,13 +3,15 @@
 /**
  * _atoi - convert string to an integer
  * @s: string to be converted
+ *
+ * Return: The integer value of the converted string
  */
 int _atoi(char *s)
 {
 	int sign = 1;
 	unsigned int num = 0;
 
-	do{
+	do {
 		if (*s == '-')
 			sign *= -1;
 
