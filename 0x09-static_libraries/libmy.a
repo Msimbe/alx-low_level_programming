@@ -1,5 +1,5 @@
-#ifndef libmy.a
-#define libmy.a
+#ifndef LIBMY_A
+#define LIBMY_A
 
 /*
  * File: libmy.a
