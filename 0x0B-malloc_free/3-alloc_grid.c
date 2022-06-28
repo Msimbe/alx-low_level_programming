@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 /**
- * allo Returns a pointer to a 2-dimensional array
+ * alloc_grid - pointer to a 2-dimensional array
  * @width: The width of the 2-dimensional array
  * @height: The height of the 2-dimensional array.
  *
