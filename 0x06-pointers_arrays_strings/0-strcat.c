@@ -9,7 +9,7 @@
  *
  * Return: dest.
  */
-char *strcat(char *dest, const char *sc)
+char *strcat(char *dest, const char *src)
 {
 	int index = 0, dest_len = 0;
 
