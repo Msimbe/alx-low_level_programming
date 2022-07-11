@@ -1,5 +1,5 @@
 #include "main.h"
-#include <stdii.h>
+#include <stdio.h>
 
 /**
  * print_chessboard - Prints a chessboard.
