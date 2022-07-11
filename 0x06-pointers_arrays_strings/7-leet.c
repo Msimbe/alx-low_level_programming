@@ -2,18 +2,28 @@
 #include <stdio.h>
 
 /**
- * print_chessboard - Prints a chessboard.
- * @a: The chessboard to be printed.
+ * leet - Encodes a string to 1337.
+ * @str: The string to be encoded.
+ *
+ * Return: A pointer to the encoded string.
  */
-void print_chessboard(char (*a)[8])
+char *leet(char *str)
 {
-	int indx1, indx2;
+	int indx1 = 0, indx2;
+	char leet[8] = {'O', 'L', '?', 'E', 'A', '?', '?', 'T'};
 
-	for (indx1 = 0; a[indx1][7]; indx1++)
+	while (str[indx1])
 	{
-		for (indx2 = 0; indx2 < 8; indx2++)
-			putchar(a[indx1][indx2]);
+		for (indx2 = 0; indx2 <= 7; indx2++)
+		{
+			if (str[indx1] == leet[indx2] ||
+			    str[indx1] - 32 == leet[indx2])
+				str[indx1] = indx2 + '0';
+		}
 
-		putchar('\n');
+		indx1++;
 	}
+
+	return (str);
 }
+
